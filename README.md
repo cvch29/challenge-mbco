@@ -141,18 +141,7 @@ El build de Android utiliza un **Keystore** para firmar el APK y el AAB antes de
  
 El APK se genera únicamente cuando hay un **push a `main`**. Hay tres formas de obtenerlo:
  
-### Opción 1 — Desde GitHub Releases (recomendado)
- 
-El job `artifact_release` crea automáticamente un **GitHub Release** con el TAG de la versión (`vX.Y.Z`) y adjunta los archivos generados:
- 
-- `*.apk` — APK de release firmado
-- `*.aab` — Android App Bundle
-- `config.json` — Remote Config de Firebase
-Pasos:
-1. Ir a la pestaña **Releases** del repositorio en GitHub.
-2. Seleccionar la versión deseada.
-3. Descargar el archivo `.apk` desde la sección **Assets**.
-### Opción 2 — Desde Firebase App Distribution
+### Opción 1 — Desde Firebase App Distribution
  
 El job `distribute` sube el APK automáticamente a **Firebase App Distribution** con el `app_id`:
 ```
@@ -161,7 +150,7 @@ El job `distribute` sube el APK automáticamente a **Firebase App Distribution**
  
 Los testers invitados recibirán una notificación y podrán instalar el APK directamente desde la app de Firebase App Distribution en su dispositivo.
  
-### Opción 3 — Desde los Artefactos del Workflow (temporal)
+### Opción 2 — Desde los Artefactos del Workflow (temporal)
  
 Los artefactos se retienen por **1 día** (`retention-days: 1`) y están disponibles durante ese período:
  
