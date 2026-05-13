@@ -98,8 +98,8 @@ configurations.all {
         force("io.netty:netty-codec-http:4.1.118.Final")
         force("io.netty:netty-codec:4.1.118.Final")
 
-        force("com.google.protobuf:protobuf-java:3.25.5")
-        force("com.google.protobuf:protobuf-kotlin:3.25.5")
+        force("com.google.protobuf:protobuf-java:4.34.1")
+        force("com.google.protobuf:protobuf-kotlin:4.34.1")
     }
 }
 
