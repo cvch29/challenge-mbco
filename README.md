@@ -145,7 +145,7 @@ El APK se genera únicamente cuando hay un **push a `main`**. Hay tres formas de
  
 El job `distribute` sube el APK automáticamente a **Firebase App Distribution** con el `app_id`:
 ```
-1:432490436563:android:fee35c44f2f2ccf59b4126
+1:project-id:android:id
 ```
  
 Los testers invitados recibirán una notificación y podrán instalar el APK directamente desde la app de Firebase App Distribution en su dispositivo.
