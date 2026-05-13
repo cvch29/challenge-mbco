@@ -89,7 +89,7 @@ configurations.all {
 
         force("org.jdom:jdom2:2.0.6.1")
 
-        force("org.bouncycastle:bcprov-jdk18on:1.80")
+        force("org.bouncycastle:bcprov-jdk18on:1.84")
 
         force("org.bitbucket.b_c:jose4j:0.9.6")
 
