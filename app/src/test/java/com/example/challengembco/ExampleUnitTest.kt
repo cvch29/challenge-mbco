@@ -24,7 +24,7 @@ class ExampleUnitTest {
     // fun addition_shouldFail() {
     //     assertEquals(5, 2 + 2)
     // }
-
+ 
     // // FALLA: comparación de strings incorrecta
     // @Test
     // fun string_shouldFail() {
