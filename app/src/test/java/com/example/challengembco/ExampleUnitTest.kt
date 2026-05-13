@@ -19,11 +19,11 @@ class ExampleUnitTest {
         assertEquals(6, 2 * 3)
     }
 
-    // FALLA: resultado incorrecto a propósito
-    @Test
-    fun addition_shouldFail() {
-        assertEquals(5, 2 + 2)
-    }
+    // // FALLA: resultado incorrecto a propósito
+    // @Test
+    // fun addition_shouldFail() {
+    //     assertEquals(5, 2 + 2)
+    // }
 
     // // FALLA: comparación de strings incorrecta
     // @Test
