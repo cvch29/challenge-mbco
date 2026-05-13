@@ -93,10 +93,10 @@ configurations.all {
 
         force("org.bitbucket.b_c:jose4j:0.9.6")
 
-        force("io.netty:netty-handler:4.1.118.Final")
-        force("io.netty:netty-codec-http2:4.1.118.Final")
-        force("io.netty:netty-codec-http:4.1.118.Final")
-        force("io.netty:netty-codec:4.1.118.Final")
+        force("io.netty:netty-handler:4.2.13.Final")
+        force("io.netty:netty-codec-http2:4.2.13.Final")
+        force("io.netty:netty-codec-http:4.2.13.Final")
+        force("io.netty:netty-codec:4.2.13.Final")
 
         force("com.google.protobuf:protobuf-java:3.25.5")
         force("com.google.protobuf:protobuf-kotlin:3.25.5")
