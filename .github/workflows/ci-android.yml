@@ -6,16 +6,18 @@ on:
   push:
     branches:
       - main
-      - develop
     paths-ignore:
       - '.github/workflows/**'
+      - 'README.md'
+      - '*.jpeg'
 
   pull_request:
     branches:
-      - develop
+      - main
     paths-ignore:
       - '.github/workflows/**'
-
+      - 'README.md'
+      - '*.jpeg'
 jobs:
   mobile:
     uses: cvch29/challenge-templates/.github/workflows/ci-cd-mobile.yaml@main
