@@ -1,0 +1,21 @@
+name: App CI/CD Workflow
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+      - develop
+    paths-ignore:
+      - '.github/workflows/**'
+
+  pull_request:
+    branches:
+      - develop
+    paths-ignore:
+      - '.github/workflows/**'
+
+jobs:
+  mobile:
+    uses: cvch29/challenge-templates/.github/workflows/ci-cd-mobile.yaml@main
