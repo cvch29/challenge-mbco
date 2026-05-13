@@ -131,3 +131,4 @@ Setup ──► Build ──► Artifact Release ──► Promote DEV ──►
 - Los artefactos son **inmutables**: una vez construidos no se recompilan, solo se promueven entre ambientes.
 - La autenticación en todos los ambientes se realiza mediante **OIDC** (sin secretos estáticos).
 - El flujo de ramas cortas (`feature/*`, `hotfix/*`) garantiza que `main` siempre permanezca en estado desplegable.
+ 
