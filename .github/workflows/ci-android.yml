@@ -1,6 +1,7 @@
 name: App CI/CD Workflow
 
 on:
+
   workflow_dispatch:
 
   push:
@@ -21,3 +22,5 @@ on:
 jobs:
   mobile:
     uses: cvch29/challenge-templates/.github/workflows/ci-cd-mobile.yaml@main
+    with:
+      environment: challenge 
