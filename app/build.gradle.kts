@@ -16,7 +16,7 @@ android {
         minSdk = 33
         targetSdk = 35
         versionCode = 1
-        versionName = "1.0.2"
+        versionName = "1.0.3"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -61,7 +61,7 @@ dependencies {
     // implementation("com.squareup.okhttp3:okhttp:3.4.1") // Prueba dependabot
     // implementation("commons-collections:commons-collections:3.2.1")  // Prueba dependabot + dependency review + TEST
     // implementation("org.apache.commons:commons-text:1.9") // 
-    // implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.10")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.10")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

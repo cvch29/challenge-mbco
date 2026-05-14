@@ -1,4 +1,4 @@
-# Git Workflow & Release Pipeline
+# Git Workflow & Release Pipeline 
  
 Este documento describe el flujo de trabajo de desarrollo y release basado en el diagrama de branching y CI/CD.
  
